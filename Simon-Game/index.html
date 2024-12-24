@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simon Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Brainwave Beats</h1>
+    <h2 id="level-title">Press Any Key to Start</h2>
+    <div id="timer-container">
+      <span id="timer-label">Time Left:</span>
+      <span id="timer">60s</span>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="row">
+        <div id="green" class="btn green"></div>
+        <div id="red" class="btn red"></div>
+      </div>
+      <div class="row">
+        <div id="yellow" class="btn yellow"></div>
+        <div id="blue" class="btn blue"></div>
+      </div>
+    </div>
+  </main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+</html>
